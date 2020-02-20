@@ -4,6 +4,13 @@
     padding: 0;
     outline: 0;
 }
+a{
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+/* header part css start*/
 spam{
     color: orange;
 }
@@ -104,11 +111,12 @@ spam{
     border-radius: 10px;
 }
 /* experinces css start */
-.experinces{
+#experinces{
     height: 500px;
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    padding: 20px;
 }
 .container_3{
     width: 1280px;
@@ -140,8 +148,8 @@ spam{
     color: orange;
 }
 #border_left{
-    border-left: 3px solid black;
-    border-image: linear-gradient( lightsalmon tomato);
+    border-left: 3px solid #2CBDED ;
+    border-image: linear-gradient( #2CBDED tomato);
     border-image-slice: 1;
 
 }
@@ -150,3 +158,70 @@ spam{
     width: 46%;
     float: right;
 }
+#border_right{
+    border-left: 3px solid #58D68D ;
+    border-image: linear-gradient( red yellow);
+    border-image-slice: 1;
+}
+/* images css  start */
+#about_me{
+    height: 200px;
+    background-color: whitesmoke;
+}
+.container_about{
+    width: 1280px;
+    margin: auto;
+    padding: 50px;
+    padding-top: 50px;
+}
+.row_ablout{
+    width: 100%;
+}
+.about_me{
+    width: 49%;
+    float: left;
+}
+.name{
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+.name h4{
+    font-size: 15px;
+}
+.sub_name p{
+    font-size: 14px;
+}
+.email{
+    width: 35%;
+    float: left;
+}
+.email h4{
+    font-size: 15px;
+}
+.sub_email p{
+    font-size: 14px;
+}
+.number{
+    width: 19%;
+    float: left;
+}
+.number h4{
+    font-size: 15px;
+}
+.sub_number  p{ 
+    font-size: 14px;
+}
+.contract_me{
+    width: 49%;
+    float: left;
+}
+.f_1 {
+    width: 10%;
+    float: right;
+}
+.f_1 img{
+    width: 40px;
+}
+
+

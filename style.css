@@ -1,0 +1,128 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+spam{
+    color: orange;
+}
+#header_part{
+    width: 100Ah;
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+.container_1{
+    width: 1280px;
+    margin: auto;
+}
+.row_1{
+    width: 100%;
+    padding: 40px;
+}
+.child_div_1{
+    width: 50%;
+    float: left;
+}
+.child_div_1 h1{
+    font-size: 50px;
+    padding-top: 30px;
+    
+}
+.hilite{
+    padding-bottom: 30px;
+}
+.child_div_1 h3{
+    padding-bottom: 20px;
+}
+.child_div_1 h3 b{
+    color: tomato;
+    font-weight: 800;
+    
+}
+.child_div_1 p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.link-button{
+    text-decoration: none;
+   background-image: linear-gradient( 45deg, lightsalmon, tomato);
+   padding: 5px 10px;
+   border-radius: 5px;
+
+}
+.child_div_2{
+    width: 50%;
+    float: left;
+}
+.img img{
+    width: 600px ;
+}
+/*container_2 css start*/
+#section_2{
+    background-image: url("dream-bg.png");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+}
+.container_2{
+    width: 1280px;
+    margin: auto;
+    padding-top: 100px;
+}
+.row_2{
+    width: 100%;
+}
+.r_2_child_row_1{
+    width: 49%;
+    float: left;
+}
+.child_img img{
+    width: 600px;
+}
+.r_2_child_row_2{
+    width: 50%;
+    float: right;
+}
+.r_2_child_row_2 h1{
+    font-size: 35px;
+}
+.r_2_child_row_2 h3{
+    padding-top: 40px;
+}
+.r_2_child_row_2 p{
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.last_button{
+    text-decoration: none;
+    background-image: linear-gradient(44deg, lightsalmon, tomato);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+/*footer css start*/
+.footer_section{
+    padding-bottom: 300px;
+}
+.container_f{
+    width: 1280px; 
+    margin: auto;
+}
+.row_f{
+    width: 100%;
+}
+.f_child_1{
+    width: 45%;
+    float: left;
+    border-left: 3px solid black;
+    background-image: linear-gradient(45def, lightsalmon, tomatot);
+}
+
+.f_child_2{
+    width: 45%;
+    float: left;
+    border: 3px solid red;
+}

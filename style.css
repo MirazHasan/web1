@@ -9,7 +9,7 @@ spam{
 }
 #header_part{
     width: 100Ah;
-    background-image: url("top-banner.png");
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 .container_1{
@@ -60,7 +60,7 @@ spam{
 }
 /*container_2 css start*/
 #section_2{
-    background-image: url("dream-bg.png");
+    background-image: url("images/dream-bg.png");
     height: 800px;
     background-repeat: no-repeat;
     background-position: right;
